@@ -62,7 +62,7 @@ function displayEmptyGalleryMessage() {
 
 function displayCurrentTime() {
     setInterval(function () {
-        // 1. Get reference to DOM element
+        // 1. Get a reference to DOM element
         const $clock = document.querySelector('#current-time');
 
         // 2. Get current time from Date object
@@ -72,6 +72,30 @@ function displayCurrentTime() {
         // 3. Render time into DOM element
         $clock.textContent = currentDate;
     }, 1000);
+}
+
+// Math.random() => from 0 to 1
+// Math.random() * 4 => from 0 to 4
+// Math.random() * 4 + 2 => from 2 to 6
+
+function randomInteger(from, to) {
+    return Math.round(Math.random() * (to - from) + from);
+}
+
+function displayRandomPhoto(photos) {
+    // 1. Get a reference to DOM element
+    const $container = document.querySelector('#random-photo');
+
+    // 2. Generate a random number
+    const random = randomInteger(0, 2);
+
+    // 3. Get a photo from photos collection
+    const randomPhoto = photos[random];
+
+    // 4. Render a photo
+    const $randomPhoto = document.createElement('img');
+    $randomPhoto.src = randomPhoto.url;
+    $container.append($randomPhoto);
 }
 
 // Function Declaration
@@ -103,6 +127,8 @@ function main() {
         } else {
             renderPhotos(photos);
         }
+
+        displayRandomPhoto(photos);
     }, 2000);
 }
 
