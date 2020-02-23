@@ -60,6 +60,20 @@ function displayEmptyGalleryMessage() {
     displayMessage("Gallery is empty. We doesn't any photos");
 }
 
+function displayCurrentTime() {
+    setInterval(function () {
+        // 1. Get reference to DOM element
+        const $clock = document.querySelector('#current-time');
+
+        // 2. Get current time from Date object
+        const date = new Date(); // object
+        const currentDate = date.toLocaleTimeString('pl'); // string
+
+        // 3. Render time into DOM element
+        $clock.textContent = currentDate;
+    }, 1000);
+}
+
 // Function Declaration
 function main() {
     // var a; // hoisting
@@ -67,6 +81,8 @@ function main() {
     // b = 3;
     // const c = 4;
     // c = 5; // Error
+
+    displayCurrentTime();
 
     loader.show();
 
