@@ -68,20 +68,26 @@ function main() {
     // const c = 4;
     // c = 5; // Error
 
-    const photos = [
-        { url: "https://i.picsum.photos/id/1036/200/300.jpg" },
-        { url: "https://i.picsum.photos/id/1035/200/300.jpg" },
-        { url: "https://i.picsum.photos/id/1033/200/300.jpg" },
-        null
-    ];
+    loader.show();
 
-    const isGalleryEmpty = (photos.length === 0);
+    setTimeout(function () {
+        const photos = [
+            { url: "https://i.picsum.photos/id/1036/200/300.jpg" },
+            { url: "https://i.picsum.photos/id/1035/200/300.jpg" },
+            { url: "https://i.picsum.photos/id/1033/200/300.jpg" },
+            null
+        ];
 
-    if (isGalleryEmpty) {
-        displayEmptyGalleryMessage();
-    } else {
-        renderPhotos(photos);
-    }
+        const isGalleryEmpty = (photos.length === 0);
+
+        loader.hide();
+
+        if (isGalleryEmpty) {
+            displayEmptyGalleryMessage();
+        } else {
+            renderPhotos(photos);
+        }
+    }, 2000);
 }
 
 // Function Invoke
