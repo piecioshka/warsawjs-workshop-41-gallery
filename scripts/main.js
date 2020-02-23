@@ -130,6 +130,36 @@ function main() {
 
         displayRandomPhoto(photos);
     }, 2000);
+
+    window.addEventListener('hashchange', function () {
+        console.log('hash is changed', location.hash);
+
+        const $photos = document.querySelector('#photos');
+        const $randomPhoto = document.querySelector('#random-photo');
+
+        // Routing
+        switch (location.hash) {
+            case '':
+                // 1. Hide random photo container
+                $randomPhoto.style.display = 'none';
+                // 2. Show gallery container
+                $photos.style.display = 'block';
+                break;
+
+            case '#random':
+                // 1. Show random photo container
+                $randomPhoto.style.display = 'block';
+                // 2. Hide gallery container
+                $photos.style.display = 'none';
+                break;
+
+            default:
+                $randomPhoto.style.display = 'none';
+                $photos.style.display = 'none';
+                break;
+        }
+
+    });
 }
 
 // Function Invoke
