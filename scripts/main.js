@@ -4,7 +4,7 @@ function renderPhoto(photo) {
     // Create HTMLImageElement
     const $photo = document.createElement('img');
     // $photo.src = photo;
-    $photo.setAttribute('src', photo);
+    $photo.setAttribute('src', photo.url);
 
     // Render
     const $photos = document.querySelector('#photos');
@@ -17,7 +17,12 @@ function renderPhotos(photos) {
     //     renderPhoto(photo);
     // }
     photos.forEach(function (photo) { // Anonymous Function
-        renderPhoto(photo);
+        try {
+            renderPhoto(photo);
+        } catch (err) {
+            console.warn(err);
+            renderPhoto({ url: 'https://placehold.co/200x300' });
+        }
     });
 }
 
@@ -64,9 +69,10 @@ function main() {
     // c = 5; // Error
 
     const photos = [
-        "https://i.picsum.photos/id/1036/200/300.jpg",
-        "https://i.picsum.photos/id/1035/200/300.jpg",
-        "https://i.picsum.photos/id/1033/200/300.jpg",
+        { url: "https://i.picsum.photos/id/1036/200/300.jpg" },
+        { url: "https://i.picsum.photos/id/1035/200/300.jpg" },
+        { url: "https://i.picsum.photos/id/1033/200/300.jpg" },
+        null
     ];
 
     const isGalleryEmpty = (photos.length === 0);
