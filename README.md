@@ -2,12 +2,6 @@
 
 ⛩️ WarsawJS Workshop #41 — JavaScript (Beginner Level)
 
-<img
-    src="https://warsawjs.com/static/images/logos/logo-warsawjs.svg"
-    width="400"
-    alt="WarsawJS"
-/>
-
 ## Demo 🎉
 
 <https://piecioshka.github.io/warsawjs-workshop-41-gallery>
