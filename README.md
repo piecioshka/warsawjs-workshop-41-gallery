@@ -71,7 +71,7 @@
 
 * [ ]  SRC: `scripts/main.js`
     + [ ]  Create function `displayMessage()`
-        - [ ]  SAY: `innerHTML`, `innerText`, `textContent`
+        - [ ]  TALK: `innerHTML`, `innerText`, `textContent`
         - [ ]  Use simple strategy with `textContent`
         - [ ]  Use complex strategy with `innerHTML` with Bulma component
     + [ ]  Create function `displayEmptyGalleryMessage()`
