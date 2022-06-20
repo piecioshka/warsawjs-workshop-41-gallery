@@ -21,7 +21,7 @@ function renderPhotos(photos) {
             renderPhoto(photo);
         } catch (err) {
             console.warn(err);
-            renderPhoto({ url: 'https://placehold.co/200x300' });
+            renderPhoto({ url: 'https://picsum.photos/200/300' });
         }
     });
 }
@@ -112,9 +112,9 @@ function main() {
 
     setTimeout(function () {
         const photos = [
-            { url: "https://i.picsum.photos/id/1036/200/300.jpg" },
-            { url: "https://i.picsum.photos/id/1035/200/300.jpg" },
-            { url: "https://i.picsum.photos/id/1033/200/300.jpg" },
+            { url: "https://picsum.photos/id/1036/200/300" },
+            { url: "https://picsum.photos/id/1035/200/300" },
+            { url: "https://picsum.photos/id/1033/200/300" },
             null
         ];
 

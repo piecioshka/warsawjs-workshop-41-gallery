@@ -13,8 +13,6 @@
     + <https://placeskull.com/200/300>
     + <https://picsum.photos/>
     + <https://picsum.photos/200/300>
-    + <https://placehold.co/>
-    + <https://placehold.co/200x300>
 * <https://bulma.io/documentation/>
 * <https://www.webfx.com/tools/emoji-cheat-sheet/>
 * <https://icons8.com/preloaders>
