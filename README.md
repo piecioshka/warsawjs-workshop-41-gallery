@@ -1,6 +1,6 @@
 # warsawjs-workshop-41-gallery
 
-⛩️ WarsawJS Workshop #41 — JavaScript (Beginner Level)
+⛩️ WarsawJS Workshop #41 — JavaScript (Basic Level)
 
 ## Demo 🎉
 
