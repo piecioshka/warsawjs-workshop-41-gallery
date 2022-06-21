@@ -112,10 +112,6 @@ Give a ⭐️ if this project helped you!
 
 ## Related
 
-* [workshop-javascript-prework-counter](https://github.com/piecioshka/workshop-javascript-prework-counter)
-* [workshop-javascript-prework-printer](https://github.com/piecioshka/workshop-javascript-prework-printer)
-* [workshop-javascript-prework-lotto](https://github.com/piecioshka/workshop-javascript-prework-lotto)
-* [workshop-javascript-prework-static-page](https://github.com/piecioshka/workshop-javascript-prework-static-page)
 * Other trainers
     + [by @Kamil Grabek](https://github.com/G3F4/warsawjs-workshop-41)
     + [by @Daniel Karski](https://github.com/dkarski/warsawjs-workshop-41)
