@@ -30,7 +30,7 @@
 * :white_check_mark: Objects
 * :white_check_mark: Conditions `(if)`
 * :white_check_mark: Loops `(for, forEach)`
-* :white_check_mark: Error Handling `(try..catch)`
+* :white_check_mark: Error Handling `(try...catch)`
 * :warning: Falsy Values `(false, 0, '', NaN, null, undefined)`
 * :warning: JSON
 * :warning: BOM — Browser Object Model
@@ -80,7 +80,7 @@
 
 * [ ]  SRC: `scripts/main.js`
     + [ ]  Add `null` as next element of **photos**
-    + [ ]  Add `try..catch` to catch `Uncaught TypeError`
+    + [ ]  Add `try...catch` to catch `Uncaught TypeError`
         - `Cannot read property 'url' of null`
 
 ### Loader
