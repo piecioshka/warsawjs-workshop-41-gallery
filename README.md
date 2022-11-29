@@ -46,10 +46,10 @@
 
 ### Display photos
 
-* [ ]  SRC: `scripts/main.js`
-* [ ]  SRC: `index.html`
+* [ ]  EDIT: `scripts/main.js`
+* [ ]  EDIT: `index.html`
     + [ ]  Link a `main.js` file by `script` tag
-* [ ]  SRC: `scripts/main.js`
+* [ ]  EDIT: `scripts/main.js`
     + [ ]  Create function `main()`
     + [ ]  Create list of different URLs to **photos**
     + [ ]  Create loop `for`
@@ -57,7 +57,7 @@
 
 ### Refactoring
 
-* [ ]  SRC: `scripts/main.js`
+* [ ]  EDIT: `scripts/main.js`
     + [ ]  Create function `renderPhoto()`
         - With `for` loop content
     + [ ]  Create function `renderPhotos()`
@@ -67,7 +67,7 @@
 
 ### Handle empty photos
 
-* [ ]  SRC: `scripts/main.js`
+* [ ]  EDIT: `scripts/main.js`
     + [ ]  Create function `displayMessage()`
         - [ ]  TALK: `innerHTML`, `innerText`, `textContent`
         - [ ]  Use simple strategy with `textContent`
@@ -78,31 +78,31 @@
 
 ### Handler errors
 
-* [ ]  SRC: `scripts/main.js`
+* [ ]  EDIT: `scripts/main.js`
     + [ ]  Add `null` as next element of **photos**
     + [ ]  Add `try...catch` to catch `Uncaught TypeError`
         - `Cannot read property 'url' of null`
 
 ### Loader
 
-* [ ]  SRC: `images/loader.gif`
-* [ ]  SRC: `scripts/loader.js`
+* [ ]  EDIT: `images/loader.gif`
+* [ ]  EDIT: `scripts/loader.js`
     + [ ]  Create object `loader` with functions: `show()`, `hide()`
-* [ ]  SRC: `index.html`
+* [ ]  EDIT: `index.html`
     + [ ]  Link a `loader.js` file by `script` tag
-* [ ]  SRC: `scripts/loader.js`
+* [ ]  EDIT: `scripts/loader.js`
     + [ ]  Funkcja `show()`
         - Get reference to outlet container
         - Create `HTMLElement`
     + [ ]  Funkcja `hide()`
         - Remove `HTMLElement` from DOM
-* [ ]  SRC: `scripts/main.js`
+* [ ]  EDIT: `scripts/main.js`
     + [ ]  Invoke `loader.show()` and the beginning
     + [ ]  Invoke `loader.hide()` before rendering use `setTimeout`
 
 ### Display current time
 
-* [ ]  SRC: `scripts/main.js`
+* [ ]  EDIT: `scripts/main.js`
     + [ ]  Create function `displayCurrentTime()`
     + [ ]  Use `setInterval()` to render time on each second
 
