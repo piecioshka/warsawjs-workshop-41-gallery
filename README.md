@@ -2,7 +2,7 @@
 
 ⛩️ WarsawJS Workshop #41 — JavaScript (Basic Level)
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/warsawjs-workshop-41-gallery>
 
