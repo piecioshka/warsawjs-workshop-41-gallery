@@ -106,10 +106,6 @@
     + [ ]  Create function `displayCurrentTime()`
     + [ ]  Use `setInterval()` to render time on each second
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
 ## Related
 
 * Other trainers
